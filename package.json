@@ -1,0 +1,41 @@
+{
+  "name": "@nfts/eslint-config",
+  "version": "1.3.1",
+  "main": "./index.js",
+  "description": "Eslint configuration",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "beats",
+    "dev": "beats --watch"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "8.28.0",
+    "eslint-plugin-hooks": "^0.4.3",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "devDependencies": {
+    "@nfts/beats": "^0.0.4",
+    "@types/eslint": "^8.40.2",
+    "@types/jest": "^29.5.1",
+    "@types/node": "^20.3.2",
+    "eslint": "^8.43.0",
+    "typescript": "^5.0.3"
+  },
+  "peerDependencies": {
+    "eslint": "^8.43.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
+}
