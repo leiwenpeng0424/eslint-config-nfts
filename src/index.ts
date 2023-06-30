@@ -1,4 +1,3 @@
-/**  @type {import('@types/eslint').Linter.Config} */
 export default {
   env: {
     browser: true,
