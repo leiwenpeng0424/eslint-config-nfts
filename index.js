@@ -26,7 +26,7 @@ var index = {
       ],
       plugins: ["@typescript-eslint", "react", "hooks"],
       parserOptions: {
-        ecmaVersion: 2015,
+        ecmaVersion: "latest",
         sourceType: "module",
         ecmaFeatures: {
           jsx: true
